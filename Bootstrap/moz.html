@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOZ with bootstrap </title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ -->
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="moz.css">
+</head>
+<body>
+	
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			
+			<!-- LOGO -->	
+			<div class="navbar-header">
+				<img src="images/MOZ1.png" class="img-responsive" alt="moz image">
+			</div>		
+			
+			<!-- Menu- items -->
+
+			<div>
+				<ul class="nav navbar-nav">
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+
+				<!-- right-top menu -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+					<li><a href="#">| <span class="glyphicon glyphicon-book"> Learn&Connect |</span></a></li>
+					<li><a href="#">Moz Pro</a></li>
+					<li><a href="#">Moz Local</a></li>
+					<li><a href="#">Free Tools</a></li>
+					<li><a href="#"><span style="color:#53BEE9">Log In</span></a></li>
+				</ul>
+			</div> 		<!-- menu-items div closed -->
+
+		</div> <!-- container-fluid div closed -->
+
+	</nav> 
+	<br>
+	<div class="container-fluid">
+				<h1 id="top500">The Moz Top 500</h1>
+				<h4>Moz's list of the 500 domains and pages on the web. Last Uptaded January 10,2014.</h4>
+				<p>The table below contains a list of the top 500 registered domains(*.example.com> ranked by the number of linking domains.This data is sourced from the Mozscape web index of 6 Billions domains and 181 Billion pages.</p>
+				<h5 id="blue">Download the Top 500 Domains as CSV</h5>
+	</div>
+		<div class="panel panel-default">
+		  <!-- Default panel contents -->
+  		<div class="panel-heading">
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="active"><a href="#">Top 500 Domains</a></li>
+			<li role="presentation"><a href="#"><span style="color:gray">Top 500 Pages</span></a></li>
+		</ul>
+		</div>
+
+		<!-- for the drop-down -->
+					
+						<p class="navbar-text">Show
+						
+						<button type="button" class="btn btn-default navbar-btn"> 
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span style="color:black">10</span>  <span style="color:black" class="caret"></span></a>
+							<ul class="dropdown-menu">
+								
+								<li><a href="#">20</a></li> 
+								<li><a href="#">30</a></li>
+								<li><a href="#">40</a></li>
+								<li><a href="#">50</a></li>
+								<li><a href="#">60</a></li>
+								<li><a href="#">70</a></li>
+								<li><a href="#">80</a></li>
+								<li><a href="#">90</a></li>
+								<li><a href="#">100</a></li>
+
+							</ul>
+						</li>
+						</button>
+						
+						entries</p>
+
+
+		<!-- for the search button -->
+		<ul class="nav navbar-nav navbar-right">
+        			<form>
+        			<label for="search"></label>
+        			<li>Search:<input type="text" name="search" id="search" style="margin-right:30px"></a></li>
+        			</form>
+      	</ul>
+
+      	<div class="container-fluid">
+      		
+	      	<table class="table table-striped"  border="1" >
+	      		<div class="row">
+	      			<thead>
+	      				<tr>
+		      			<div class="col-xs-1"><th>Rank</th></div>
+		      			<div class="col-xs-2"><th>Root Domain</th></div>
+		      			<div class="col-xs-2"><th>Linking Root Domain</th></div>
+		      			<div class="col-xs-1"><th>External Links</th></div>
+		      			<div class="col-xs-2"><th>Domain mozRank</th></div>
+		      			<div class="col-xs-2"><th>Domain mozTrust</th></div>
+		      			<div class="col-xs-1"><th>Page Rank</th></div>
+		      			<div class="col-xs-1"><th>Change</th></div>
+		      			</tr>
+		      		</thead>	
+		      		<tbody>	
+		      			<tr>
+		      			<div class="col-xs-1"><td>1</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Facebook.com</span></td></div>
+		      			<div class="col-xs-2"><td>9,616,487</td></div>
+		      			<div class="col-xs-1"><td>1,688,316,928</td></div>
+		      			<div class="col-xs-2"><td>95.4
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 95.4%;">
+  										  		</div> 
+  												 </td></div>
+		      			<div class="col-xs-2"><td>9.34
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 93.4%;">
+		      								  </td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>0</td></div>
+		      			</tr>
+
+		      			<tr>
+		      			<div class="col-xs-1"><td>2</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Twitter.com</span></td></div>
+		      			<div class="col-xs-2"><td>6,454,936</td></div>
+		      			<div class="col-xs-1"><td>2,147,483,647</td></div>
+		      			<div class="col-xs-2"><td>9.40
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  									<div class="progress-bar"  style="width: 92.5%;"></div> 
+		      								 </td></div>
+		      			<div class="col-xs-2"><td>9.25
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 92.5%;">
+		      									  </td></div>
+		      			<div class="col-xs-1"><td>10</td></div>
+		      			<div class="col-xs-1"><td>0</td></div>
+		      			</tr>
+
+		      			<tr>
+		      			<div class="col-xs-1"><td>3</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Google.com</span></td></div>
+		      			<div class="col-xs-2"><td>5,868,081</td></div>
+		      			<div class="col-xs-1"><td>807,173,458</td></div>
+		      			<div class="col-xs-2"><td>9.30
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 92.7%;">
+  										  		</div> 
+		      								  </td></div>
+		      			<div class="col-xs-2"><td>9.27
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 92.7%;">
+		      								  </td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>0</td></div>
+		      			</tr>
+
+		      			<tr>
+		      			<div class="col-xs-1"><td>4</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Youtube.com</span></td></div>
+		      			<div class="col-xs-2"><td>5,442,206</td></div>
+		      			<div class="col-xs-1"><td>841,281,214</td></div>
+		      			<div class="col-xs-2"><td>9.25
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 92.5%;">
+  										  		</div> 
+		      								  </td></div>
+		      			<div class="col-xs-2"><td>9.11
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 91.1%;">
+					      						</td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>0</td></div>
+		      			</tr>
+
+						<tr>
+		      			<div class="col-xs-1"><td>5</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Wordpress.org</span></td></div>
+		      			<div class="col-xs-2"><td>4,051,288</td></div>
+		      			<div class="col-xs-1"><td>361,023,992</td></div>
+		      			<div class="col-xs-2"><td>8.99
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 89.90%;">
+  										  		</div> 
+		      								  </td></div>
+		      			<div class="col-xs-2"><td>8.71
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 87.1%;">
+		      								  </td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>0</td></div>
+		      			</tr>		      			
+
+		      			<tr>
+		      			<div class="col-xs-1"><td>6</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Adobe.com</span></td></div>
+		      			<div class="col-xs-2"><td>3,498,190</td></div>
+		      			<div class="col-xs-1"><td>232,289,315</td></div>
+		      			<div class="col-xs-2"><td>9.30
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 93%;">
+  										  		</div> 
+		      						  	  	  </td></div>
+		      			<div class="col-xs-2"><td>9.27
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 92.70%;">
+		      								  </td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>0</td></div>
+		      			</tr>
+
+		      			<tr>
+		      			<div class="col-xs-1"><td>7</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Blogspot.com</span></td></div>
+		      			<div class="col-xs-2"><td>3,073,493</td></div>
+		      			<div class="col-xs-1"><td>232,289,315</td></div>
+		      			<div class="col-xs-2"><td>8.77
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 87.70%;">
+  										  		</div> 
+					      		      		  </td></div>
+		      			<div class="col-xs-2"><td>8.71
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 87.1%;">
+		      								 </td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>0</td></div>
+		      			</tr>
+
+		      			<tr>
+		      			<div class="col-xs-1"><td>8</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Wikipedia.com</span></td></div>
+		      			<div class="col-xs-2"><td>2,917,053</td></div>
+		      			<div class="col-xs-1"><td>206,217,734</td></div>
+		      			<div class="col-xs-2"><td>8.83
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 88.3%;">
+  										  		</div> 
+		      								  </td></div>
+		      			<div class="col-xs-2"><td>8.72
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 87.2%;">
+		      			</td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>0</td></div>
+		      			</tr>
+
+		      			<tr>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Linkedin.com</span></td></div>
+		      			<div class="col-xs-2"><td>2,435,569</td></div>
+		      			<div class="col-xs-1"><td>327,700,219</td></div>
+		      			<div class="col-xs-2"><td>8.95
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 89.50%;">
+  										  		</div> 
+		      								 </td></div>
+		      			<div class="col-xs-2"><td>8.81
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 88.1%;">
+		      								  </td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>+1</td></div> <!-- put image -->
+		      			</tr>
+
+		      			<tr>
+		      			<div class="col-xs-1"><td>10</td></div>
+		      			<div class="col-xs-2"><td><span style="color:#6BA7D4">Wordpress.com</span></td></div>
+		      			<div class="col-xs-2"><td>2,340,965</td></div>
+		      			<div class="col-xs-1"><td>327,700,219</td></div>
+		      			<div class="col-xs-2"><td>8.65
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar"  style="width: 86.5%;">
+  										  		</div> 
+		      								  </td></div>
+		      			<div class="col-xs-2"><td>8.80
+		      					<div class="progress" style="height:12px;width:50px;margin-left:35px;margin-top:-16px">
+  										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemax="10" style="width: 86%;">
+		      			</td></div>
+		      			<div class="col-xs-1"><td>9</td></div>
+		      			<div class="col-xs-1"><td>-1</td></div>  <!-- put image -->
+		      			</tr>
+
+		      		</tbody>
+
+	      		</table>
+	      		Showing 1 to 10 of 500 entries
+	      		<ul class="nav navbar-nav navbar-right">
+	      		<li><button style="margin-bottom:80px">Previous</button>  <button>Next</button></li>
+	      	</ul>
+
+	      	</div>	<!-- row closed -->
+
+	      	
+
+	      	
+
+
+ 					<!-- <nav style="color:black">
+		  			<ul class="pager">
+		    		<li style="float:right"><a href="#"><span style="color:black">Next</span></a></li>
+		    		<li style="float:right"><a href="#"><span style="color:black">Previous</span></a></li>
+		    		
+		  			</ul>
+					</nav>
+ -->
+
+
+		</div>
+
+
+		
+    
+  		</div>
+</div>
+
+
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
